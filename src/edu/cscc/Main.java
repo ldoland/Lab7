@@ -43,7 +43,7 @@ public class Main {
             } else {
                 System.out.println("You win!");
             }
-
+            //Ask user if they want to play again.
             System.out.print("Play again ('y' or 'n'): ");
             answer = input.nextLine();
         } while ("Y".equalsIgnoreCase(answer));
